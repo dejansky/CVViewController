@@ -69,9 +69,9 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWA-t0-gV1">
                                         <rect key="frame" x="10" y="10" width="394" height="444.33333333333331"/>
                                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <mutableString key="text">LabelYourself off its pleasant ecstatic now law. Ye their mirth seems of songs. Prospect out bed contempt separate. Her inquietude our shy yet sentiments collecting. Cottage fat beloved himself arrived old. Grave widow hours among him ﻿no you led. Power had these met least nor young. Yet match drift wrong his our. 
+                                        <string key="text">LabelYourself off its pleasant ecstatic now law. Ye their mirth seems of songs. Prospect out bed contempt separate. Her inquietude our shy yet sentiments collecting. Cottage fat beloved himself arrived old. Grave widow hours among him ﻿no you led. Power had these met least nor young. Yet match drift wrong his our. 
 
-On no twenty spring of in esteem spirit likely estate. Continue new you declared differed learning bringing honoured. At mean mind so upon they rent am walk. Shortly am waiting inhabit smiling he chiefly of in. Lain tore time gone him his dear sure. Fat decisively estimating affronting assistance not. Resolve pursuit regular so calling me. West he plan girl been my then up no.</mutableString>
+On no twenty spring of in esteem spirit likely estate. Continue new you declared differed learning bringing honoured. At mean mind so upon they rent am walk. Shortly am waiting inhabit smiling he chiefly of in. Lain tore time gone him his dear sure. Fat decisively estimating affronting assistance not. Resolve pursuit regular so calling me. West he plan girl been my then up no.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -389,10 +389,10 @@ On no twenty spring of in esteem spirit likely estate. Continue new you declared
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O9A-qF-3vw">
-                                <rect key="frame" x="0.0" y="526" width="0.0" height="818"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </containerView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TbS-Oo-QCU">
-                                <rect key="frame" x="0.0" y="44" width="0.0" height="44"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <items>
                                     <navigationItem title="Title" id="8iy-zw-YJ5"/>
                                 </items>
@@ -416,7 +416,7 @@ On no twenty spring of in esteem spirit likely estate. Continue new you declared
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTg-fl-7Ie">
                                 <rect key="frame" x="0.0" y="251.66666666666669" width="414" height="610.33333333333326"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sn-hw-SNe">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TitleE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sn-hw-SNe">
                                         <rect key="frame" x="0.0" y="10.000000000000028" width="414" height="42.666666666666664"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <nil key="textColor"/>
@@ -430,9 +430,9 @@ On no twenty spring of in esteem spirit likely estate. Continue new you declared
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="150" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueO-nC-uJi">
                                         <rect key="frame" x="10" y="120.33333333333337" width="394" height="490"/>
-                                        <mutableString key="text">pecify the maximum number of lines for the label to use when laying out the text with the numberOfLines property. Setting a value of 0 allows the label to use as many lines as necessary to lay out the text within the label’s width. Use the lineBreakMode property to control how the text is split into multiple lines, and the truncation behavior associated with the final line.
+                                        <string key="text">pecify the maximum number of lines for the label to use when laying out the text with the numberOfLines property. Setting a value of 0 allows the label to use as many lines as necessary to lay out the text within the label’s width. Use the lineBreakMode property to control how the text is split into multiple lines, and the truncation behavior associated with the final line.
 Use Auto Layout to position and optionally size the label. The intrinsic content size for a label defaults to the size that displays the entirety of the content on a single line. If you provide Auto Layout constraints that define the width of the label but not the height, the label’s intrinsic content size adjusts the height to display the text completely.
-When the label has its size completely defined externally, you can specify how it handles the situation when its content doesn’t fit within the bounds. To reduce the font size, set the adjustsFontSizeToFitWidth property to true and set the minimumScaleFactor property to a value between 0 and 1. The latter of these properties represents how much smaller than the requested font size the label scales the text. Setting the allowsDefaultTighteningForTruncation property to true instructs the label to reduce the spacing between characters before truncating the string. Figure 4 shows a label that uses minimumScale</mutableString>
+When the label has its size completely defined externally, you can specify how it handles the situation when its content doesn’t fit within the bounds. To reduce the font size, set the adjustsFontSizeToFitWidth property to true and set the minimumScaleFactor property to a value between 0 and 1. The latter of these properties represents how much smaller than the requested font size the label scales the text. Setting the allowsDefaultTighteningForTruncation property to true instructs the label to reduce the spacing between characters before truncating the string. Figure 4 shows a label that uses minimumScale</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -490,7 +490,7 @@ When the label has its size completely defined externally, you can specify how i
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d9w-3Q-iSh">
-                                <rect key="frame" x="0.0" y="428" width="0.0" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                             </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xzu-wH-d3K">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="56.666666666666664"/>
