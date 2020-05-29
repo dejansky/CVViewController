@@ -18,7 +18,7 @@
 		83EBDAF7248120DD0078FDED /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDAF6248120DD0078FDED /* SkillViewController.swift */; };
 		83EBDAFD24812BC50078FDED /* SpecificExpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDAFC24812BC50078FDED /* SpecificExpViewController.swift */; };
 		83EBDB022481388E0078FDED /* Datahandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDB012481388E0078FDED /* Datahandler.swift */; };
-		83EBDB04248138CE0078FDED /* varDatahandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDB03248138CE0078FDED /* varDatahandler.swift */; };
+		83EBDB0624813AEE0078FDED /* varDatahandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDB0524813AEE0078FDED /* varDatahandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		83EBDAF6248120DD0078FDED /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
 		83EBDAFC24812BC50078FDED /* SpecificExpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificExpViewController.swift; sourceTree = "<group>"; };
 		83EBDB012481388E0078FDED /* Datahandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datahandler.swift; sourceTree = "<group>"; };
-		83EBDB03248138CE0078FDED /* varDatahandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = varDatahandler.swift; sourceTree = "<group>"; };
+		83EBDB0524813AEE0078FDED /* varDatahandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = varDatahandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				83EBDAF6248120DD0078FDED /* SkillViewController.swift */,
 				83EBDAFC24812BC50078FDED /* SpecificExpViewController.swift */,
 				83EBDB012481388E0078FDED /* Datahandler.swift */,
-				83EBDB03248138CE0078FDED /* varDatahandler.swift */,
+				83EBDB0524813AEE0078FDED /* varDatahandler.swift */,
 			);
 			path = CVViewController;
 			sourceTree = "<group>";
@@ -157,8 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83433E3B237A954E007C7B50 /* AppDelegate.swift in Sources */,
-				83EBDB04248138CE0078FDED /* varDatahandler.swift in Sources */,
 				83EBDAFD24812BC50078FDED /* SpecificExpViewController.swift in Sources */,
+				83EBDB0624813AEE0078FDED /* varDatahandler.swift in Sources */,
 				83433E3D237A954E007C7B50 /* SceneDelegate.swift in Sources */,
 				833FCB9B23993A5C00F7B669 /* UIMainViewController.swift in Sources */,
 				833FCBA123994FBF00F7B669 /* ExpTableViewController.swift in Sources */,
