@@ -16,10 +16,9 @@
 		83433E44237A9551007C7B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83433E43237A9551007C7B50 /* Assets.xcassets */; };
 		83433E47237A9551007C7B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83433E45237A9551007C7B50 /* LaunchScreen.storyboard */; };
 		83EBDAF7248120DD0078FDED /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDAF6248120DD0078FDED /* SkillViewController.swift */; };
-		83EBDAFA2481249C0078FDED /* dataHandlerVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDAF82481249C0078FDED /* dataHandlerVar.swift */; };
-		83EBDAFB2481249C0078FDED /* Datahandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDAF92481249C0078FDED /* Datahandler.swift */; };
 		83EBDAFD24812BC50078FDED /* SpecificExpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDAFC24812BC50078FDED /* SpecificExpViewController.swift */; };
-		83EBDB0024812D100078FDED /* CVViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDAFE24812D100078FDED /* CVViewController.xcdatamodeld */; };
+		83EBDB022481388E0078FDED /* Datahandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDB012481388E0078FDED /* Datahandler.swift */; };
+		83EBDB04248138CE0078FDED /* varDatahandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDB03248138CE0078FDED /* varDatahandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +33,9 @@
 		83433E46237A9551007C7B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83433E48237A9551007C7B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83EBDAF6248120DD0078FDED /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
-		83EBDAF82481249C0078FDED /* dataHandlerVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dataHandlerVar.swift; path = "../../../Documents/iOSLab2-3/iOSLab2/dataHandlerVar.swift"; sourceTree = "<group>"; };
-		83EBDAF92481249C0078FDED /* Datahandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Datahandler.swift; path = "../../../Documents/iOSLab2-3/iOSLab2/Datahandler.swift"; sourceTree = "<group>"; };
 		83EBDAFC24812BC50078FDED /* SpecificExpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificExpViewController.swift; sourceTree = "<group>"; };
-		83EBDAFF24812D100078FDED /* CVViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CVViewController.xcdatamodel; sourceTree = "<group>"; };
+		83EBDB012481388E0078FDED /* Datahandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datahandler.swift; sourceTree = "<group>"; };
+		83EBDB03248138CE0078FDED /* varDatahandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = varDatahandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +68,6 @@
 		83433E39237A954E007C7B50 /* CVViewController */ = {
 			isa = PBXGroup;
 			children = (
-				83EBDAF92481249C0078FDED /* Datahandler.swift */,
-				83EBDAF82481249C0078FDED /* dataHandlerVar.swift */,
 				833FCBA023994FBF00F7B669 /* ExpTableViewController.swift */,
 				833FCBA2239950BA00F7B669 /* ExpTableViewCell.swift */,
 				83433E3A237A954E007C7B50 /* AppDelegate.swift */,
@@ -83,7 +79,8 @@
 				83433E48237A9551007C7B50 /* Info.plist */,
 				83EBDAF6248120DD0078FDED /* SkillViewController.swift */,
 				83EBDAFC24812BC50078FDED /* SpecificExpViewController.swift */,
-				83EBDAFE24812D100078FDED /* CVViewController.xcdatamodeld */,
+				83EBDB012481388E0078FDED /* Datahandler.swift */,
+				83EBDB03248138CE0078FDED /* varDatahandler.swift */,
 			);
 			path = CVViewController;
 			sourceTree = "<group>";
@@ -160,15 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				83433E3B237A954E007C7B50 /* AppDelegate.swift in Sources */,
-				83EBDB0024812D100078FDED /* CVViewController.xcdatamodeld in Sources */,
+				83EBDB04248138CE0078FDED /* varDatahandler.swift in Sources */,
 				83EBDAFD24812BC50078FDED /* SpecificExpViewController.swift in Sources */,
 				83433E3D237A954E007C7B50 /* SceneDelegate.swift in Sources */,
 				833FCB9B23993A5C00F7B669 /* UIMainViewController.swift in Sources */,
 				833FCBA123994FBF00F7B669 /* ExpTableViewController.swift in Sources */,
-				83EBDAFB2481249C0078FDED /* Datahandler.swift in Sources */,
+				83EBDB022481388E0078FDED /* Datahandler.swift in Sources */,
 				83EBDAF7248120DD0078FDED /* SkillViewController.swift in Sources */,
 				833FCBA3239950BA00F7B669 /* ExpTableViewCell.swift in Sources */,
-				83EBDAFA2481249C0078FDED /* dataHandlerVar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,19 +360,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		83EBDAFE24812D100078FDED /* CVViewController.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				83EBDAFF24812D100078FDED /* CVViewController.xcdatamodel */,
-			);
-			currentVersion = 83EBDAFF24812D100078FDED /* CVViewController.xcdatamodel */;
-			path = CVViewController.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 83433E2F237A954E007C7B50 /* Project object */;
 }
